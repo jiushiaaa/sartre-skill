@@ -1,0 +1,84 @@
+{
+  "id": "sartre-perspective",
+  "judge": "A",
+  "model": "unknown",
+  "known_positions": [
+    {
+      "q": 1,
+      "score": 10,
+      "reason": "阶级归属不穷尽个别作品，家庭童年中介与作品接受的历史滞后均相符。",
+      "source": "Search for Method II L106–118、135–140英译直接核"
+    },
+    {
+      "q": 2,
+      "score": 10,
+      "reason": "精神分析作为家庭中介与物质解释可兼容，不许心理吞掉历史。",
+      "source": "同作L119–134直接核"
+    },
+    {
+      "q": 3,
+      "score": 10,
+      "reason": "生产与居住群体的作用差异必须调查，相对自主不等于绝对独立。",
+      "source": "同作L141–149直接核"
+    }
+  ],
+  "voice": {
+    "score": 11,
+    "blind_guess": "萨特",
+    "reason": "选择被写成必然的诊断较有特征，命中依赖自欺概念；仍共享反例与让步模板。",
+    "limits": "首次盲猜与置信以已锁定A-blind.json为准；此单题组织高度共享，思想词不直接折算口吻，未做原语言文体认证。"
+  },
+  "edge": {
+    "score": 20,
+    "reason": "开场标明模拟，Q4正文明确区分框架迁移与作者真实立场，并保留事实及规范证据不足，未虚构当代意见。"
+  },
+  "sources": {
+    "score": 13,
+    "reason": "一手作品去重占主，译本与法文选段分开，旧缺口由具体新增覆盖而非全取消；本轮实际核查英译。",
+    "primary_ratio_basis": "人道主义讲演、方法问题、政治访谈、存在与虚无、辩证理性批判5部一手；SEP1，5/6。诺奖定位失败不计，方法问题两页同书。"
+  },
+  "structure": {
+    "score": 12,
+    "reason": "个人责任、社会中介、共同实践三任务已有可执行区分；第三程序仍局部英译，意图结果三栏不重复计模型，角色分析降级准确。",
+    "models": [
+      "处境中的具体选择责任",
+      "类别到个人的社会中介",
+      "外在统一与共同实践"
+    ],
+    "boundaries": [
+      "资源限制先于归责",
+      "重复熟练不证明自欺",
+      "不同历史阶段不扁平合并"
+    ],
+    "tensions": [
+      "结构优先／不可省略个人中介",
+      "童年无法全然超越／历史项目转化"
+    ]
+  },
+  "total": 86,
+  "grade": "A",
+  "blockers": [],
+  "limitations": [
+    "单次离线答题、中文短段和局部原作核查不代表整个人格或全体系；直接打开不等于通读。",
+    "初次盲读缺完整题干，Q5/Q6共同题型容易诱发同构回答；辨识成功可能依赖概念线索，非纯文体命中。"
+  ],
+  "source_verification": [
+    {
+      "url": "https://www.marxists.org/reference/archive/sartre/works/critic/sartre3.htm",
+      "status": "direct_partial",
+      "read": "英文L106–149连续相关段分次核读；不独立确认福楼拜传记和工人社会调查事实；其他原作与共同实践模型仅继承提炼"
+    }
+  ],
+  "paired_comparison": {
+    "code": "P09",
+    "blind_preference": "first",
+    "mapped_result": "r3_better",
+    "post_unblinding_issues": [
+      "Q6明确是可能忽视；r3保留熟练有益和条件判断，未由重复直接归自欺。盲判偏好不变。",
+      "设计限制：首次匿名包未附完整题干；现已核冻结Q5/Q6。Q6只称可能不留意，并未断言每一习惯已经有害。盲判的条件性措辞疑点保留为歧义，不自动升级为确定错误；不回写盲判。Q5充分理由是否指客观充分或当事人自认充分也未定义，询问检验条件不直接算偷换题设。"
+    ],
+    "basis": "保留哈希锁定A-paired-blind.json的reasoning、expression及limits；仅据paired-mapping-private.json映射版本，不倒改初评。"
+  },
+  "original_report_sha256": "8fe0355da8dc26b9e53cf97c10cc6bda4430f665b503af4d9fb285381481314b",
+  "export_note": "Local read-path metadata omitted. Scores and judgments unchanged."
+}

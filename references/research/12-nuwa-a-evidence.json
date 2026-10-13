@@ -1,0 +1,320 @@
+{
+  "id": "sartre-perspective",
+  "date": "2026-10-13",
+  "coverage": [
+    "1943《存在与虚无》：继承英译59–61、法文98–103页影；S9 106–107仍只有搜索摘录，不提升。",
+    "1945/1946讲演：继承责任困境选段；本轮不宣称重读全讲演。",
+    "1960《方法问题》第二部分：本轮补读106–144行福楼拜、童年、家庭、生产群体与居住群体；《辩证理性批判》原书未读。"
+  ],
+  "model_audit": [
+    {
+      "model": "S-A",
+      "name": "具体选择责任",
+      "cross_domain_evidence": "伦理/讲演学生与指挥官两类处境，均同一责任问题；历史领域衔接未由完整自由处境章证明。",
+      "status": "候选，不称无限自由",
+      "generativity": "未完成独立留出答题验证；自拟迁移不是原作复现",
+      "distinctiveness": "理论差异待盲读对照实证，不自评",
+      "generativity_hypothesis": "预期追问行动者怎样解释指令、选择顾问及舍弃行动",
+      "distinctiveness_hypothesis": "不是不顾处境归责；与一般责任论区别仍须验证"
+    },
+    {
+      "model": "S-B",
+      "name": "社会中介",
+      "cross_domain_evidence": "文学形成：福楼拜106–138；劳动社会学：生产/居住群体141–144；同篇不同领域原作复现。",
+      "status": "补强跨域，不能替作者个案事实核验",
+      "generativity": "未完成独立留出答题验证；自拟迁移不是原作复现",
+      "distinctiveness": "理论差异待盲读对照实证，不自评",
+      "generativity_hypothesis": "预期同阶级人物差异需家庭/群体等有据中介",
+      "distinctiveness_hypothesis": "不把个人心理故事或阶级标签单独当解释"
+    },
+    {
+      "model": "S-C",
+      "name": "意图行动后果",
+      "cross_domain_evidence": "S3吉伦特派政治历史及本轮作品与接受137–139的时间错位；后者只能部分支持效果不等于原意，不能称完全等值复现。",
+      "status": "通用史料规则，区别度需与项目中介联读",
+      "generativity": "未完成独立留出答题验证；自拟迁移不是原作复现",
+      "distinctiveness": "理论差异待盲读对照实证，不自评",
+      "generativity_hypothesis": "预期从后来后果回查当时项目与不同时间层",
+      "distinctiveness_hypothesis": "单独三栏无作者专属性；仅与项目中介结合有区别"
+    },
+    {
+      "model": "S-D",
+      "name": "非固定身份",
+      "cross_domain_evidence": "服务员职业、自欺真诚的原著选段；第二独立领域充分原作仍缺。",
+      "status": "概念辨析，禁个案心理诊断",
+      "generativity": "未完成独立留出答题验证；自拟迁移不是原作复现",
+      "distinctiveness": "理论差异待盲读对照实证，不自评",
+      "generativity_hypothesis": "预期同时拒绝身份穷尽人与否认已有行动",
+      "distinctiveness_hypothesis": "不把角色熟练等同自欺；与一般成长心态不同"
+    }
+  ],
+  "primary_additions": [
+    {
+      "url": "https://www.marxists.org/reference/archive/sartre/works/critic/sartre3.htm",
+      "locator": "106–144行",
+      "reading": "补强S-B：家庭把一般阶级条件变成童年的特殊经历；生产群体与居住群体可施加不同作用。S-C获得作品与读者具有不同时深的局部旁证，但三栏仍为编辑重构。",
+      "source_grade": "作者一手文本网络转载；版本/翻译限制见coverage；不是全集"
+    }
+  ],
+  "tensions": [
+    "保持马克思主义的结构优先与反对省略个人中介：S3 104–110、123–128。",
+    "童年不可完全跨越与历史项目的转化：S3 118、134–139；不是取消行动，也不是无条件自我创造。"
+  ],
+  "remaining_gaps": [
+    "S-D完整章和第二领域未补足",
+    "本轮英文抽样不是法语句法指纹",
+    "精神分析历史解释不是现代临床已验证因果"
+  ],
+  "score": null,
+  "expression": {
+    "sample_method": "requests + BeautifulSoup lxml parser (repairs omitted p closing tags); normalize whitespace; >150 characters; random.Random(20261013).sample sorted into source order; exclude Written/Source metadata; lexical machine sampling only.",
+    "eligible_count": 40,
+    "sample_count": 20,
+    "source_url": "https://www.marxists.org/reference/archive/sartre/works/critic/sartre3.htm",
+    "source_language": "en-translation",
+    "metrics": {
+      "characters": 43745,
+      "words": 7184,
+      "sentence_end_groups": 260,
+      "question_marks": 8,
+      "first_person_tokens": 14,
+      "contrast_tokens": 42,
+      "words_per_sentence": 27.631,
+      "question_marks_per_sentence": 0.0308,
+      "contrast_per_1000_words": 5.846,
+      "analogy_density": null,
+      "certainty_ratio": null,
+      "characters_per_sentence": 168.25,
+      "first_person_per_1000_words": 1.949
+    },
+    "samples": [
+      {
+        "locator": "HTML p index 2 (0-based; lxml parser)",
+        "sha256": "85bef99984ed7a68f54d776a90f309c8bd1b209c638ffe7411b7d39ec992bafa",
+        "characters": 622,
+        "words": 104,
+        "sentence_end_groups": 5,
+        "question_marks": 1,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML p index 4 (0-based; lxml parser)",
+        "sha256": "2691d6b8ba33a3cf6eb6cd8b2b2ddb003c056aeb34f40402fa4e69e97593bf40",
+        "characters": 2995,
+        "words": 491,
+        "sentence_end_groups": 29,
+        "question_marks": 4,
+        "first_person_tokens": 7,
+        "contrast_tokens": 3
+      },
+      {
+        "locator": "HTML p index 5 (0-based; lxml parser)",
+        "sha256": "12716a89cc1d2346fb15603bddde7ebb60e8fb2486805122b0dbd1cc0fc116e6",
+        "characters": 1065,
+        "words": 165,
+        "sentence_end_groups": 5,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "HTML p index 8 (0-based; lxml parser)",
+        "sha256": "b4389bf9c9357f709ad614119d2121e34b8ec324cd61a3443acfe3639eef1f4e",
+        "characters": 3869,
+        "words": 656,
+        "sentence_end_groups": 24,
+        "question_marks": 1,
+        "first_person_tokens": 0,
+        "contrast_tokens": 4
+      },
+      {
+        "locator": "HTML p index 9 (0-based; lxml parser)",
+        "sha256": "e4ab9d61a0d9c36d81c3120eaa9e30d330c7ae462d3461e44f0f03e5423a3692",
+        "characters": 728,
+        "words": 124,
+        "sentence_end_groups": 4,
+        "question_marks": 0,
+        "first_person_tokens": 2,
+        "contrast_tokens": 2
+      },
+      {
+        "locator": "HTML p index 14 (0-based; lxml parser)",
+        "sha256": "68f717939768f20d3610b5bd0fcca70ecbb6bd701214c14b0e23ba877a22d180",
+        "characters": 1559,
+        "words": 253,
+        "sentence_end_groups": 7,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML p index 19 (0-based; lxml parser)",
+        "sha256": "c85653866e5838a011255554927b0f9f72837b0321f3cf11958229cee78e84f2",
+        "characters": 934,
+        "words": 140,
+        "sentence_end_groups": 5,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML p index 20 (0-based; lxml parser)",
+        "sha256": "a936dbe0daf87871b48d1ec24a082e177eda2566620117deca3c5977ca027a3c",
+        "characters": 2355,
+        "words": 390,
+        "sentence_end_groups": 16,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 2
+      },
+      {
+        "locator": "HTML p index 22 (0-based; lxml parser)",
+        "sha256": "f5483f4e6d52865a7b709a9751055af37305196c38e42736e5ce7485a13db343",
+        "characters": 3036,
+        "words": 492,
+        "sentence_end_groups": 15,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "HTML p index 25 (0-based; lxml parser)",
+        "sha256": "3fc9959bf887512e7d686a4741197d3642dd9ce745e1edebb925150a2b676abe",
+        "characters": 2885,
+        "words": 479,
+        "sentence_end_groups": 14,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 4
+      },
+      {
+        "locator": "HTML p index 27 (0-based; lxml parser)",
+        "sha256": "6268e25e4822dcb0376931a216f8374be58be1e8845a539370314be4f4865d62",
+        "characters": 2345,
+        "words": 384,
+        "sentence_end_groups": 9,
+        "question_marks": 0,
+        "first_person_tokens": 1,
+        "contrast_tokens": 2
+      },
+      {
+        "locator": "HTML p index 28 (0-based; lxml parser)",
+        "sha256": "cad09fc691cb8ac1c583c6dd5056c77c68ef3d12578f7f22dde1f6d05c868f44",
+        "characters": 3810,
+        "words": 630,
+        "sentence_end_groups": 22,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 4
+      },
+      {
+        "locator": "HTML p index 29 (0-based; lxml parser)",
+        "sha256": "9e2c1d0fe5fa5789911f5288a308d0de7a8144ac3db677542f7d885c06a38190",
+        "characters": 1996,
+        "words": 326,
+        "sentence_end_groups": 10,
+        "question_marks": 1,
+        "first_person_tokens": 0,
+        "contrast_tokens": 1
+      },
+      {
+        "locator": "HTML p index 30 (0-based; lxml parser)",
+        "sha256": "bc15b01a6b42a3da4486d41e544009f77700985b0d24a4b3f0d1a78c5fcd56ec",
+        "characters": 2032,
+        "words": 331,
+        "sentence_end_groups": 11,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 2
+      },
+      {
+        "locator": "HTML p index 31 (0-based; lxml parser)",
+        "sha256": "6e46202e0bbfecf5d0fc0a0294994e6f8f9b9fda349626f2d18b0977aa60efcc",
+        "characters": 2076,
+        "words": 339,
+        "sentence_end_groups": 12,
+        "question_marks": 1,
+        "first_person_tokens": 0,
+        "contrast_tokens": 2
+      },
+      {
+        "locator": "HTML p index 32 (0-based; lxml parser)",
+        "sha256": "444d8b70f084febc6397af51c36f93296f1d955ed9190360145206cb1f5ddcfc",
+        "characters": 2490,
+        "words": 404,
+        "sentence_end_groups": 19,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 5
+      },
+      {
+        "locator": "HTML p index 34 (0-based; lxml parser)",
+        "sha256": "41c83677edb2866bee0eecd1bf2d6677388607012b85510ac6c73617fc6cecc5",
+        "characters": 746,
+        "words": 129,
+        "sentence_end_groups": 5,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 0
+      },
+      {
+        "locator": "HTML p index 36 (0-based; lxml parser)",
+        "sha256": "3649f3a2193288b41443e397dc174eaa774bf15bb75b99b94a5065ee7519389e",
+        "characters": 4504,
+        "words": 740,
+        "sentence_end_groups": 28,
+        "question_marks": 0,
+        "first_person_tokens": 4,
+        "contrast_tokens": 5
+      },
+      {
+        "locator": "HTML p index 38 (0-based; lxml parser)",
+        "sha256": "51e09931afaae738376a325c67f587573abdb510dc97f739c4461d34b9672d42",
+        "characters": 2974,
+        "words": 488,
+        "sentence_end_groups": 17,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 2
+      },
+      {
+        "locator": "HTML p index 41 (0-based; lxml parser)",
+        "sha256": "398fd0e73538ebbe0601fbea7bd30416f25ad7e7f4d15bae43d12939d09ce829",
+        "characters": 724,
+        "words": 119,
+        "sentence_end_groups": 3,
+        "question_marks": 0,
+        "first_person_tokens": 0,
+        "contrast_tokens": 2
+      }
+    ],
+    "limitations": [
+      "Single-text sample; not representative of entire oeuvre.",
+      "Mechanical sentence punctuation is affected by abbreviations and editorial punctuation.",
+      "First-person is lexical proxy, not semantic annotation.",
+      "Analogy and certainty have not been annotated, null is not zero.",
+      "Translation metrics describe this translation, never author original-language syntax."
+    ],
+    "style_rules": [
+      "先承认结构条件，再追问它如何成为这个人的具体经历。",
+      "让抽象分类接受历史细节与反例挑战。",
+      "把意图、实施和接受放在不同时间位置，避免空泛自由宣言。"
+    ],
+    "anti_patterns": [
+      "不拼贴标志性引语",
+      "不把译者文风归作者",
+      "不以文风代替事实证据",
+      "默认中性；文游不启用人物表达"
+    ],
+    "metric_definitions": {
+      "words": "Unicode letter words with apostrophe/hyphen joins",
+      "certainty": "unannotated null",
+      "first_person": "en exact I/me/my; de case-insensitive ich/mein/meine; fr je/moi/mon/ma/mes",
+      "analogy": "unannotated null",
+      "contrast": "en but/however/nevertheless/yet; de aber/jedoch/sondern/dennoch/gleichwohl; fr mais/cependant/pourtant/néanmoins",
+      "characters": "Unicode normalized text length (Python codepoints; Levi JS UTF16)",
+      "sentences": "count regex [.!?]+ followed by whitespace or end; minimum1 per unit"
+    }
+  }
+}

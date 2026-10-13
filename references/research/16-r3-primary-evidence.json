@@ -1,0 +1,43 @@
+{
+  "note": "16-r3-primary-evidence.md",
+  "new_normative_tension": {
+    "status": "not_added",
+    "reason": "inertia/praxis is object-process tension, not dual author normative injunction"
+  },
+  "date": "2026-10-13",
+  "id": "sartre-perspective",
+  "model_candidate": {
+    "author_executions": [
+      "urban bus queue: illustrative",
+      "theatre scandal: illustrative",
+      "representation and revolutionary gathering: author historical analysis"
+    ],
+    "name": "外在统一与共同实践",
+    "status": "multi_context_primary_supported_candidate_not_empirically_validated",
+    "cross_domain_limit": "all social praxis; no claim of independent interdisciplinary empirical verification",
+    "bad_faith_relation": "not equated with1943badfaith; no psychological diagnosis",
+    "independence": "formation/location of collective unity; distinct from individual responsibility and personal mediation, although overlapping at bus isolation",
+    "failure": [
+      "shared interest/danger/identity insufficient",
+      "lack interaction evidence: stop classification",
+      "no automatic developmental stages"
+    ]
+  },
+  "sources": [
+    {
+      "id": "R3-S1",
+      "type": "author_primary_English_repost",
+      "url": "https://www.marxists.org/reference/archive/sartre/works/critic/collectives.htm",
+      "read": "web2-46 complete page excerpt",
+      "limitation": "translator and printpage not supplied by read page; not whole chapter"
+    },
+    {
+      "id": "R3-S2",
+      "type": "same_work_English_repost",
+      "url": "https://www.marxists.org/reference/archive/sartre/works/critic/fused-group.htm",
+      "read": "web7-87; later text unread",
+      "limitation": "historical claims not independently checked"
+    }
+  ],
+  "role": "primary_evidence_record"
+}

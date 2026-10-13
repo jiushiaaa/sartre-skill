@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "url": "https://www.marxists.org/reference/archive/sartre/works/exist/sartre.htm",
+      "read": "web83-106; BeautifulSoup p[2] through p[21] inclusive, complete",
+      "type": "author_primary_English_translation_repost",
+      "paragraph_basis": "HTML translated paragraphs; not French or print verified; purposive not random",
+      "paragraphs": 20
+    },
+    {
+      "url": "https://www.marxists.org/reference/archive/sartre/works/critic/sartre3.htm",
+      "read": "web116-159",
+      "type": "author_primary_English_translation_repost",
+      "paragraphs": null
+    }
+  ],
+  "source_catalog_patch": "See source catalog in this skill.",
+  "date": "2026-10-13",
+  "cross_domain_evidence": "See 15-r2-primary-evidence.md; no automatic upgrade.",
+  "id": "sartre-perspective",
+  "note_file": "15-r2-primary-evidence.md",
+  "persona_patch": "See ../persona-expression.md; explicit mode only.",
+  "gaps": [
+    "French syntax unverified",
+    "intention/result remains editor record tool",
+    "not three validated cross-domain models"
+  ]
+}
